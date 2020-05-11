@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "gulp serve"
+    "start": "gulp serve",
+    "dev": "nodemon server/server.js "
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +14,7 @@
     "express": "^4.17.1",
     "gulp": "^4.0.2",
     "gulp-exec": "^4.0.0",
-    "gulp-run-command": "0.0.10"
+    "gulp-run-command": "0.0.10",
+    "nodemon": "^2.0.3"
   }
 }
