@@ -9,7 +9,7 @@ function moveFiles(){
 
 function serve(){
     return moveFiles()
-        .pipe(exec('node server/server.js'));
+        .pipe(exec('nodemon server/server.js'));
 }
 
 exports.moveFiles=moveFiles;
